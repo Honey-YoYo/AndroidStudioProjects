@@ -35,11 +35,11 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         //getSupportFragmentManager（）方法只能在FragmentActivity和AppcompatActivity 使用
         myFragmentPagerAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
         binViews();
+        txt_topbar.setText(rb_add.getText());
         rb_add.setChecked(true);
 
     }
@@ -98,15 +98,19 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
             switch (viewPager.getCurrentItem()){
                 case PAGE_ONE:
                     rb_add.setChecked(true);
+                    txt_topbar.setText(rb_add.getText());
                     break;
                 case PAGE_TWO:
                     rb_delete.setChecked(true);
+                    txt_topbar.setText(rb_delete.getText());
                     break;
                 case PAGE_THREE:
                     rb_update.setChecked(true);
+                    txt_topbar.setText(rb_update.getText());
                     break;
                 case PAGE_FOUR:
                     rb_query.setChecked(true);
+                    txt_topbar.setText(rb_query.getText());
                     break;
             }
         }
