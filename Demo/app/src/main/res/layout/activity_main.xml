@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xue.demo.MainActivity">
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:background="@color/bg_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/txt_topbar"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="信息"
+            android:layout_height="match_parent" />
+
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/div_white"
+            android:layout_width="match_parent"
+            android:layout_height="2px"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@color/bg_white"
+        android:id="@+id/ly_tab_bar"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56sp">
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@drawable/tab_menu_text"
+            android:text="@string/tab_menu_add"
+            android:padding="5dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab_menu_add"
+            android:drawablePadding="3dp"
+            android:background="@drawable/tab_menu_bg"
+            android:id="@+id/txt_add"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@drawable/tab_menu_text"
+            android:text="@string/tab_menu_delete"
+            android:padding="5dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab_menu_delete"
+            android:drawablePadding="3dp"
+            android:background="@drawable/tab_menu_bg"
+            android:id="@+id/txt_delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@drawable/tab_menu_text"
+            android:text="@string/tab_menu_update"
+            android:padding="5dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab_menu_update"
+            android:drawablePadding="3dp"
+            android:background="@drawable/tab_menu_bg"
+            android:id="@+id/txt_update"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@drawable/tab_menu_text"
+            android:text="@string/tab_menu_query"
+            android:padding="5dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab_menu_query"
+            android:drawablePadding="3dp"
+            android:background="@drawable/tab_menu_bg"
+            android:id="@+id/txt_query"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    
+    <View
+        android:layout_above="@id/ly_tab_bar"
+        android:background="@color/div_white"
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px" />
+    <FrameLayout
+        android:layout_above="@+id/div_tab_bar"
+        android:layout_below="@+id/ly_top_bar"
+        android:id="@+id/ly_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</RelativeLayout>

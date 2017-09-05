@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_top_bar">
+
+        <TextView
+            android:id="@+id/txt_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="提醒"
+            android:textColor="@color/text_topbar"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/div_white" />
+
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:background="@color/bg_white"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:drawableTop="@drawable/tab_menu_add"
+            android:text="添加"
+            style="@style/tab_menu_item"
+            android:id="@+id/rb_add"
+            />
+
+        <RadioButton
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_delete"
+            android:text="删除"
+            android:id="@+id/rb_delete"
+            />
+
+        <RadioButton
+            style="@style/tab_menu_item"
+            android:text="修改"
+            android:drawableTop="@drawable/tab_menu_update"
+            android:id="@+id/rb_update"
+            />
+
+        <RadioButton
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_query"
+            android:text="查询"
+            android:id="@+id/query"
+            />
+
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/div_tab_bar"
+        android:background="@color/div_white"
+        android:layout_above="@id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpager"
+        android:layout_above="@id/div_tab_bar"
+        android:layout_below="@id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

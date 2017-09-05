@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="tab_menu_add">增加</string>
+    <string name="tab_menu_delete">删除</string>
+    <string name="tab_menu_update">修改</string>
+    <string name="tab_menu_query">查询</string>
+</resources>
