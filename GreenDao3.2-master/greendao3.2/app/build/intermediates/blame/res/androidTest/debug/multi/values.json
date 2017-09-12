@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\Android\\GitHub\\AndroidStudioProjects\\GreenDao3.2-master\\greendao3.2\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Xue_H\\.android\\build-cache\\23f062d96582431fbc06e2b3e2c8f197bcf5a493\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

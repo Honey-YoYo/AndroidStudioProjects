@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\26ea932ed25286a528034a9be3110777221c5f9c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_a4d51e0c001242f7d1e59356b01574d1c8da893a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\b670e3923d3c4b237f836fa7b1c32bdff1175c12\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_218e878dda1bef73e7de9c5f9a04d0319be3b0f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\d54cc498fc72921ad06b4d033f56006e7c43fdac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_d98b558566ab0e08abba3ba0a6a1dde0dde71f2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\614d7bbd65a44e3be8e8c5388ee91df0f4cd4c3a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_e03645cf2784287c5401e26b756004eefcbbda70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\dfab7fb173b29fd8d02d348130c7d1676e793544\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_cb8e2c8429dc4a07497f78223ed0cbc527614491.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.0\e70040568b2929b8e5869ad1ffca8e4386dc53bc\greendao-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\greendao-3.2.0_f255384204790bdbcc3613b7a7e20772a2795c81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\2d748a379eb1bace0af9252ceec166c013abfbbb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_87aa2558ed093cba7d03861530b94de50bc1266f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\cea4ed4afaded35cced344f030018faab820b8f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_710de8a16053a4cc2a8a5b3a3b83d9cbc9c8dfbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\SDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_5a6b5e06fb90b05a0b4dd0560a0326c20ff0f1ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.0\c6d610abe1d75d758431c9234917a349abc0a0ac\greendao-api-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\greendao-api-3.2.0_4482ab6d33b23ae09a6499e53d1a1b19047774ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\7ce728c4b0a9b4f0d20f6cfa14dea2965d775073\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_35ec702934d0365e554299a2ecbb7f5aafe4c655.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\91b78671f5e8e1ec76c07f6385775b902510827b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_038622b170a51b09d39f0c771ac6f46b6b820a67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_1aa45f9a1d90e1d37f637b391c9a5d26c7919f6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Xue_H\.android\build-cache\0b13ff5734e8342f61c03844898c853d56c533b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="F:\Android\GitHub\AndroidStudioProjects\GreenDao3.2-master\greendao3.2\app\build\intermediates\pre-dexed\debug\classes_df669b166ebe89b5846057e0c8b2c9c4f21b038e.jar" />
+    </item>
+
+</items>
