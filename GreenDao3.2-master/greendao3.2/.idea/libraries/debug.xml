@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_35ec702934d0365e554299a2ecbb7f5aafe4c655.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_e03645cf2784287c5401e26b756004eefcbbda70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_cb8e2c8429dc4a07497f78223ed0cbc527614491.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_038622b170a51b09d39f0c771ac6f46b6b820a67.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_df669b166ebe89b5846057e0c8b2c9c4f21b038e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_87aa2558ed093cba7d03861530b94de50bc1266f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/greendao-3.2.0_f255384204790bdbcc3613b7a7e20772a2795c81.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_a4d51e0c001242f7d1e59356b01574d1c8da893a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_d98b558566ab0e08abba3ba0a6a1dde0dde71f2d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_710de8a16053a4cc2a8a5b3a3b83d9cbc9c8dfbb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/greendao-api-3.2.0_4482ab6d33b23ae09a6499e53d1a1b19047774ec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes_218e878dda1bef73e7de9c5f9a04d0319be3b0f7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_1aa45f9a1d90e1d37f637b391c9a5d26c7919f6e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_5a6b5e06fb90b05a0b4dd0560a0326c20ff0f1ff.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_733c960c4d472a76db00f7c55567e0b524ecba43.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
