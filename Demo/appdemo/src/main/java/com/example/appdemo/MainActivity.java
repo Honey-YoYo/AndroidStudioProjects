@@ -1,6 +1,5 @@
 package com.example.appdemo;
 
-import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.annotation.IdRes;
@@ -9,7 +8,6 @@ import android.os.Bundle;
 import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Switch;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
@@ -25,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 
     private HomePageFragment fg1;
     private ConsoleFragment fg2;
-    private ColudInformationFragment fg3;
+    private CloudInformationFragment fg3;
     private UserCenterFragment fg4;
     private FragmentManager fragmentManager;
 
@@ -83,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 break;
             case R.id.rb_coludinformation:
                 if(fg3 == null){
-                    fg3 = new ColudInformationFragment();
+                    fg3 = new CloudInformationFragment();
                     fTransaction.add(R.id.ly_content,fg3);
                     txt_topbar.setText(rb_coludinformation.getText());
 

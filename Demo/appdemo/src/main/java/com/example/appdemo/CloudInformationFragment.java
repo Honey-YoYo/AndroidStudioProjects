@@ -11,12 +11,12 @@ import android.view.ViewGroup;
  * Created by Xue on 2017/9/14.
  */
 
-public class ColudInformationFragment extends Fragment {
+public class CloudInformationFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_coludinformation,container,false);
+        View view = inflater.inflate(R.layout.activity_cloudinformation,container,false);
         return view;
 
     }

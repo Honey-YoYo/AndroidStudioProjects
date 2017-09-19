@@ -1,91 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.appdemo.MainActivity">
+    >
 
-    <TextView
-        android:id="@+id/txt_topbar"
-        android:layout_width="0dp"
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="提醒"
-        android:textSize="18sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        android:background="@color/bg_top_bar">
 
-    <View
-        android:background="@color/colorPrimary"
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:id="@+id/top_view"
-        app:layout_constraintTop_toBottomOf="@+id/txt_topbar" />
+        <TextView
+            android:id="@+id/txt_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="提醒"
+            android:textSize="18sp" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/div_white" />
+
+
+    </RelativeLayout>
 
     <RadioGroup
         android:id="@+id/rg_group"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:background="@color/bg_white"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal">
 
-        >
 
         <RadioButton
+            android:drawableTop="@drawable/tab_menu_house"
             android:text="东方网域"
             style="@style/tab_menu_item"
             android:id="@+id/rb_homepage"
             />
 
         <RadioButton
+            android:drawableTop="@drawable/tab_menu_cloud"
             style="@style/tab_menu_item"
             android:text="控制台"
             android:id="@+id/rb_console"
             />
 
         <RadioButton
+            android:drawableTop="@drawable/tab_menu_console"
             style="@style/tab_menu_item"
             android:text="云资讯"
             android:id="@+id/rb_coludinformation"
             />
 
         <RadioButton
+            android:drawableTop="@drawable/tab_menu_user"
             style="@style/tab_menu_item"
             android:text="用户中心"
             android:id="@+id/rb_usercenter"
             />
+
+
     </RadioGroup>
+
     <View
-        android:id="@+id/bottom_view"
-        android:background="@color/colorPrimary"
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/rg_group"
-        />
+        android:id="@+id/div_tab_bar"
+        android:background="@color/div_white"
+        android:layout_above="@id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
 
-   <FrameLayout
-       android:id="@+id/ly_content"
-       android:layout_width="0dp"
-       android:layout_height="0dp"
-       android:layout_marginBottom="0dp"
-       android:layout_marginTop="0dp"
-       app:layout_constraintBottom_toTopOf="@+id/bottom_view"
-       app:layout_constraintHorizontal_bias="0.0"
-       app:layout_constraintLeft_toLeftOf="parent"
-       app:layout_constraintRight_toRightOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/top_view"
-       app:layout_constraintVertical_bias="0.5">
+    <fragment
+        android:id="@+id/ly_content"
+        android:layout_above="@id/div_tab_bar"
+        android:layout_below="@id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
-   </FrameLayout>
-</android.support.constraint.ConstraintLayout>
+    </fragment>
+
+</RelativeLayout>
